@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
 import './App.css';
+import turkart from './tequilamap.png'
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Mer info om <code>Leilighet 2 Leilighet</code> kommer snart.
+            <img src={turkart} className="App-map" alt="map" />
           </p>
           <p>
             Det blir:
