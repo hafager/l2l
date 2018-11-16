@@ -25,6 +25,10 @@
 .App-link {
   color: #61dafb;
 }
+p span {
+  color: red;
+  font-size: 24pt;
+}
 
 @keyframes App-logo-spin {
   from {
